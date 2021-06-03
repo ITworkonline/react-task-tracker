@@ -24,6 +24,7 @@ const AddTask = ({onAdd}) => {
            <div className ='form-control'>
                <label>Task</label>
                <input
+                    id = 'test-1'
                     type='text'
                     placeholder='Add Task'
                     value={text}
@@ -33,6 +34,7 @@ const AddTask = ({onAdd}) => {
            <div className ='form-control'>
                <label>Day and time</label>
                <input
+                    id = 'test-2'
                     type='text'
                     placeholder='Add Day & Time'
                     value={day}
